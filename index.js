@@ -77,17 +77,26 @@ inquirer
 
 ])
 .then((answers)=> {
-    const htmlPageContent = generateHTML(answers);
-    // fs.writeFile('utils/README.md'), htmlPageContent, (err) =>
 
-    writeToFile('utils/README.md', contribution)
-    // err ? console.log(err) : console.log('All set!')
+    fs.writeFile('./utils/README.md', generateMarkdown(answers), (err) =>
+    err ? console.error(err) : console.log('Commit logged!')
+  );
 }
-
 )
-
-
 }
+
+//     // const htmlPageContent = generateHTML(answers);
+//     // fs.writeFile('utils/README.md'), htmlPageContent, (err) =>
+
+//     fs.writeToFile('utils/README.md', 'text', (err) =>
+//     err ? console.log(err) : console.log('All set!')
+//     )
+// }
+
+// )
+
+
+// }
 
 // Function call to initialize app
 init();
