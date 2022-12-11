@@ -19,6 +19,15 @@ function generateMarkdown(data) {
 
 ${data.description}
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Testing](#testing)
+- [Questions](#questions)
+
 ## Installation
 
 ${data.installation}
@@ -27,6 +36,10 @@ ${data.installation}
 
 ${data.usage}
 
+## License
+
+This application is covered under ${data.license}
+
 ## Contribution
 
 ${data.contribution}
@@ -34,6 +47,13 @@ ${data.contribution}
 ## Testing
 
 ${data.test}
+
+## Questions
+
+GitHub Username: https://github.com/${data.github}
+
+Email: ${data.email}
+
 `;
 }
 // this is just passing in the variables from earlier into text

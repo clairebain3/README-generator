@@ -1,21 +1,41 @@
-# t
+# This is the project title
 
 ## Description
 
-t
+This is the project description
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Testing](#testing)
+- [Questions](#questions)
 
 ## Installation
 
-t
+These are the installation instructions
 
 ## Usage
 
-t
+here is some information about the usage
+
+## License
+
+This application is covered under MIT License
 
 ## Contribution
 
-t
+here are some contribution guidelines
 
 ## Testing
 
-t
+here is some test instructions
+
+## Questions
+
+GitHub Username: https://github.com/clairebain3
+
+Email: claire.bain3@gmail.com
+
