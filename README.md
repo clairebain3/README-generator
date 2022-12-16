@@ -12,3 +12,5 @@ Credits: N/A
 
 License: Please refer to the license in the repo
 
+![Picture of application](./assets/README-pic.png)
+
